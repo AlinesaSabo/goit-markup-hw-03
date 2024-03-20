@@ -1,10 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family:"Roboto", sans-serif;
     background-color:#FFFFFF;
     font-weight: 400;
     color:#434455;
+    margin: 0;
+    max-width: 1440px;
+    margin:0 auto;
+
     
 }
+
+
+h2,
+h3 {
+    color: #2E2F42;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.page-container{
+    max-width: 1440px;
+        margin: 0 auto;
+        padding: 0;
+}
+
+.header-hed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:76px;
+    padding:24px 156px;
+
+}
+
+
 
 .logo{
     font-family:"Raleway", sans-serif;
@@ -22,15 +67,22 @@ body{
     
 }
 
+.header-list-menu{
+    list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        
+}
+
 .header-link{
     color:#2E2F42;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-
 }
+
 .header-link:hover,
 .header-link:focus
 {
@@ -41,12 +93,30 @@ body{
     font-style: normal;
 }
 
+.contacts-menu{
+    list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding-right: 156px;
+        padding-left: 150px;
+}
+
+.contacts-menu-list{
+    list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    
+}
+
 .contacts-info{
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     text-decoration: none;
+    
 }
 .contacts-info:hover,
 .contacts-info:focus{
@@ -55,6 +125,7 @@ body{
 
 .home-name{
     background-color:#2e2f42 ;
+    height: 600px;
 }
 
 .selection-name{
@@ -64,6 +135,8 @@ body{
     line-height:1.07;
     text-align:center;
     letter-spacing: 0.02em;
+    padding:188px 472px;
+
 }
 
 .selection-button{ 
@@ -74,20 +147,17 @@ body{
     line-height:1.5;
     text-align: center;
     cursor: pointer;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
 }
+
+
 .selection-button:hover,
 .selection-button:focus{
     background-color: #404BBF;
 }
 
-h2,h3 {
-    color:#2E2F42;
-}
 
-ul {
-    list-style-type: none;
-}
 .feature-paragraph{
     color: #434455;
     font-size: 16px;
