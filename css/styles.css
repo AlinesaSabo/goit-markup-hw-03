@@ -145,6 +145,7 @@ ul {
     letter-spacing: 0.02em;
     padding: 0 472px;
     margin-bottom: 44px;
+    
 }
 
 .selection-button{ 
@@ -157,8 +158,9 @@ ul {
     cursor: pointer;
     letter-spacing: 0.04em;
     padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
 }
-
 
 .selection-button:hover,
 .selection-button:focus{
