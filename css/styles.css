@@ -162,12 +162,14 @@ img {
 
 /* FEATURE */
 .visually-hidden{
-    position: absolute;
-        left: -10000px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 .feature-container{
@@ -217,7 +219,15 @@ img {
 /* TEAM */
 .team-section {
     background-color: #F4F4FD;
-    margin-bottom: 120px;
+    padding: 120px 0;
+}
+
+.conteinet-team{
+    width: 1158px;
+        margin: 0 auto;
+        padding:32px 0;
+
+        
 }
 
 .team{
@@ -232,6 +242,9 @@ img {
 
 .team-full{
     background-color:#FFFFFF ;
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-title{
@@ -241,6 +254,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px
 }
 
 .team-name{
@@ -250,6 +264,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .team-position{
@@ -257,23 +272,40 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
 
 
 /* PORTFOLIO */
 
+.portfolio-section{
+    padding: 120px 0 120px 0;
+}
+
+.portfolio-conteiner{
+    max-width: 1158px;
+    margin: 0 auto;
+    
+}
+
 .portfolio-full{
     display: flex;
         flex-wrap: wrap;
-        gap: 24px;
-        list-style: none;
-        padding: 0 156px;
-        margin-bottom: 120px;
+        column-gap: 24px;
+        row-gap: 48px;
+        justify-content: center;
 }
 
-.portfolio-full .portfolio-item {
+.portfolio-item {
     width: calc((100% - 48px) / 3);
-    margin-bottom: 48px;
+    
+}
+
+.project-info{
+    padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-radius: 8px;
+        border-top: none;
 }
 
 .portfolio-title{
@@ -294,14 +326,15 @@ img {
     font-weight: 500;
     letter-spacing:0.02em;
     margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portfolio-paragraf{
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-bottom:8px;
 }
 
 /* FOOTER */
