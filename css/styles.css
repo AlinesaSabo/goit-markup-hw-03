@@ -308,6 +308,7 @@ position: absolute;
         border: 1px solid #e7e9fc;
         border-radius: 8px;
         border-top: none;
+        margin-bottom: 8px;
 }
 
 .portfolio-title{
@@ -336,7 +337,6 @@ position: absolute;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    margin-bottom:8px;
 }
 
 /* FOOTER */
