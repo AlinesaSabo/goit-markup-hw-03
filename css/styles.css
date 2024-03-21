@@ -46,6 +46,7 @@ img {
     display: flex;
     align-items: center;
     margin: 24px 0;
+    margin-right: auto;
 }
 
 .logo{
@@ -227,7 +228,6 @@ position: absolute;
 
 .container {
     width: 1158px;
-    margin: 0 auto;
     padding: 32px 0;
 }
 
